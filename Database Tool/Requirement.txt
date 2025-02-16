@@ -1,0 +1,8 @@
+uvicorn
+fastapi
+langchain_google_vertexai
+langchain
+langgraph
+genai
+mysql-connector-python
+pymysql
