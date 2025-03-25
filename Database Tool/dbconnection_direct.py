@@ -3,9 +3,9 @@ import traceback
 try:
     print("Attempting direct MySQL connection...")
     conn = pymysql.connect(
-        host="35.192.164.209",
+        host="",
         user="root",
-        password="Chikki@123",
+        password="",
         port=3306  )
     print("✅ Direct connection successful!")
     conn.close()
