@@ -14,22 +14,7 @@ from langchain_google_genai  import ChatGoogleGenerativeAI
 from langchain_community.utilities import GoogleSerperAPIWrapper
 import os
 
-# Load Google Cloud Credentials
-#os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\kalya\Documents\NeuroNudge\eminent-tape-444016-j4-da31b58631e7.json"
 
-
-
-# Initialize Google AI Platform
-#aiplatform.init(project=project_id, location="us-central1")
-
-# Define LLM using Google Vertex AI
-#llm = ChatVertexAI(
-#    model_name="llama-3-2-1b-instruct-mg-one-click-deploy",
-#    tuned_model_name=f"projects/{project_id}/locations/us-central1/endpoints/{endpoint_id}",
-#    temperature=0.2,
-#    max_tokens=150,
-#    max_retries=3
-#)
 os.environ["GOOGLE_API_KEY"] = ""
 
 llm = ChatGoogleGenerativeAI(
