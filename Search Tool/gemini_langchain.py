@@ -4,7 +4,7 @@ import os
 
 # Set your Google API key
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAmN7zbJiyjx8n6KXm7ocmXyqSXsyxHdZA"
+os.environ["GOOGLE_API_KEY"] = ""
 
 
 
