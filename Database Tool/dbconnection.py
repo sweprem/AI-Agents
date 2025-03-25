@@ -9,8 +9,8 @@ logging.getLogger('sqlalchemy.engine').setLevel(logging.DEBUG)
 connect_url = URL.create(
     'mysql+pymysql',
     username='root',
-    password='Chikki@123',
-    host='35.192.164.209',
+    password='',
+    host='',
     port='3306',
     database='flightdata')
 
