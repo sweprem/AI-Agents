@@ -1,0 +1,32 @@
+search_task:
+  description: >
+    Gather relevant content from LinkedIn, Medium, Google, and other websites 
+    to provide comprehensive insights for content creation.{topic}
+  expected_output: >
+    A collection of key findings, relevant articles, and summarized insights 
+    from various sources.
+  agent: search_agent
+  tools:
+    - "SerperDevTool"
+    
+  
+
+create_content:
+  description: >
+    Utilize the gathered search results to create engaging LinkedIn posts 
+    tailored to the target audience.
+  expected_output: >
+    A well-structured LinkedIn post that is informative, engaging, and aligned 
+    with professional content standards.
+  agent: content_creation_agent
+  context:
+    - "search_task"
+
+quality_assurance:
+  description: >
+    Review and refine the generated LinkedIn post to ensure it aligns with 
+    LinkedIn's content guidelines and maintains high-quality standards.
+  expected_output: >
+    A polished LinkedIn post that is clear, professional, and adheres to LinkedIn's 
+    best practices.
+  agent: quality_assurance_agent

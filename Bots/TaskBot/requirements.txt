@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+requests
+langchain 
+langchain_community
+google-cloud-aiplatform
+langchain_google_vertexai
+google-cloud-firestore
+pypdf
+sentence-transformers
+langchain_huggingface

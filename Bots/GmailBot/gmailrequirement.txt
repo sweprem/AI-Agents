@@ -1,0 +1,6 @@
+langchain
+langgraph
+langsmith
+langchain_google_vertexai
+genai
+jinja2

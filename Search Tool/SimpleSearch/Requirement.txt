@@ -1,0 +1,6 @@
+uvicorn
+fastapi
+langchain_google_vertexai
+langchain
+langgraph
+genai

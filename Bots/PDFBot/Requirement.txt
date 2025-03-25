@@ -1,0 +1,9 @@
+langchain_google_genai
+langchain
+langchain_pinecone
+langchain_community
+streamlit
+langchain_google_vertexai
+pypdf
+tiktoken
+streamlit

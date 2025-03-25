@@ -1,0 +1,11 @@
+uvicorn
+fastapi
+langchain_google_genai
+langchain
+langgraph
+genai
+langchain_pinecone
+beautifulsoup4
+langchain_community
+jinja2
+
