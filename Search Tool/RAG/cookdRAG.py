@@ -6,9 +6,9 @@ os.environ["SERPER_API_KEY"] = ""
 os.environ["GOOGLE_API_KEY"] = ""
 os.environ["USER_AGENT"] = "myagent"
 os.environ["PINECONE_API_KEY"]=""
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\kalya\Documents\NeuroNudge\eminent-tape-444016-j4-da31b58631e7.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\kalya\Documents\NeuroNudge\.json"
 
-project_id = '671081661958'
+project_id = ''
 aiplatform.init(project=project_id, location="us-central1")
 
 #embedding model to store documents in vector database
