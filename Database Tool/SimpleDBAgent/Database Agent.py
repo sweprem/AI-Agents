@@ -30,7 +30,7 @@ llm = ChatGoogleGenerativeAI(
 
 
 def getengine():
-    connection_string = "mysql+pymysql://root:Chikki%40123@35.192.164.209:3306/flightdata"
+    connection_string = "mysql+pymysql://root:3306/flightdata"
     engine = create_engine(connection_string, echo=True)
     return engine
     
