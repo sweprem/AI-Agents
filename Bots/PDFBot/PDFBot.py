@@ -1,6 +1,6 @@
 import os
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="C:\\Users\\kalya\\Documents\\NeuroNudge\\personal-453614-52b6bb337847.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="C:\\Users\\kalya\\Documents\\NeuroNudge\\"
 os.environ["GOOGLE_API_KEY"] = ""
 os.environ["PINECONE_API_KEY"]=""
 
