@@ -3,7 +3,7 @@ from crewai_tools import SerperDevTool
 import os
 from dotenv import load_dotenv
 load_dotenv()
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="C:\\Users\\kalya\\Documents\\NeuroNudge\\personal-453614-52b6bb337847.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="C:\\Users\\kalya\\Documents\\NeuroNudge\\"
 
 tool =SerperDevTool()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
