@@ -17,7 +17,7 @@ from langchain.agents import AgentType,AgentExecutor
 
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDJGz4dwGzIK6Y"
+os.environ["GOOGLE_API_KEY"] = ""
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-1.5-pro",
@@ -30,7 +30,7 @@ llm = ChatGoogleGenerativeAI(
 
 
 def getengine():
-    connection_string = "mysql+pymysql://root:Chikki%40123@35.192.164.209:3306/flightdata"
+    connection_string = "mysql+pymysql://root:3306/flightdata"
     engine = create_engine(connection_string, echo=True)
     return engine
     
